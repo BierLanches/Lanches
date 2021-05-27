@@ -1,0 +1,55 @@
+/*--------------------- zerando estilos ---------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--------------------- estilos corpo ---------------------*/
+body {
+    width: 100%;
+    text-align: center;
+    background-color: #202020;
+}
+
+header {
+    height: 250px;
+    margin: 25px 0 15px 0;
+}
+
+header #logo img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.botao button {
+    width: 80%;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+.botao img {
+    width: 40px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+/*--------------------- estilos rodape ---------------------*/
+footer {
+    color: #fff;
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    font-size: .8em;
+}
+
+footer a:link, a:visited {
+    text-decoration: none;
+    color: #3b5998
+}
